@@ -1,0 +1,25 @@
+#main {
+  background-color: #023047;
+  font-size: 18px;
+}
+#main p {
+  color: #8ecae6;
+}
+#main h1 {
+  color: #fb8500;
+}
+#main img {
+  height: 500px;
+ object-fit: cover;
+}
+
+#footer {
+  background: #3D455B;
+}
+#footer a {
+  color: white;
+}
+#footer img {
+  width: 40px;
+  height: 40px;
+}
