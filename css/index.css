@@ -1,10 +1,12 @@
 #header {
   font-family: 'Alkatra', cursive;
 }
+html { 
+  scroll-behavior: smooth;
+}
 .section {
   padding: 5rem;
 }
-
 #main {
   background-color: #023047;
   font-size: 18px;
@@ -21,7 +23,6 @@
   height: 500px;
  object-fit: cover;
 }
-
 #footer {
   background: #3D455B;
 }
