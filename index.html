@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/index.css">
     <title>Caroline Sada</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  </head>
-  <body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" data-bs-offset="20" class="scrollspy-example" tabindex="0">
+    <link rel="icon" type="image/x-icon" href="./assets/icons/tiktok.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+</head>
+  <body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" data-bs-offset="10" class="pb-0 scrollspy-example" tabindex="0">
     <!-- Inicio header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav id="header" class="p-0 navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="./assets/icons/tiktok.png"  alt="tiktok" width="40" height="35">
@@ -21,51 +29,30 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg">
             <li class="nav-item">
-              <a class="nav-link" href="#historia">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-history" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <polyline points="12 8 12 12 14 14" />
-                  <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5" />
-                </svg>
-                Historia
+              <a class="nav-link" href="#sobre_mi">
+                <i class="bi bi-clock-history"></i>
+                Sobre mi
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link"  href="#influencer">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-analytics" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <rect x="3" y="4" width="18" height="12" rx="1" />
-                  <line x1="7" y1="20" x2="17" y2="20" />
-                  <line x1="9" y1="16" x2="9" y2="20" />
-                  <line x1="15" y1="16" x2="15" y2="20" />
-                  <path d="M8 12l3 -3l2 2l3 -3" />
-                </svg>
+                <i class="bi bi-file-earmark-bar-graph"></i>
                 Influencer
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#finanzas">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-report-money" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-                  <rect x="9" y="3" width="6" height="4" rx="2" />
-                  <path d="M14 11h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
-                  <path d="M12 17v1m0 -8v1" />
-                </svg>
+                <i class="bi bi-currency-dollar"></i>
                 Finanzas
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#cursos">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-school" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
-                  <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
-                </svg>
+                <i class="bi bi-journal-check"></i>
                 Cursos
               </a>
             </li>
-            <a href="#" class="btn btn-outline-light">Inscribete</a>
+            <a href="#inscripcion" class="btn btn-outline-light">Inscribete</a>
             </a>
           </ul>
         </div>
@@ -74,115 +61,127 @@
     <!-- Fin header -->
     <!-- Main -->
     <main id="main">
-      <div class="container">
-        <div class="container-fluid">
-          <section id="historia">
-            <div class="row">
-              <div class="col-12 col-lg-6 pl-0 pr-0">
-                <img src="./assets/img/Caroline_Sada.png" class="img-thumbnail" alt="...">
+        <div class="container">
+          <div class="container-fluid">
+            <section class="p-5 p-lg-5" id="sobre_mi">
+              <div class="row">
+                <div class="col-12 col-lg-6 pl-0 pr-0">
+                  <img src="./assets/img/Caroline_Sada.png" class="img-thumbnail" alt="...">
+                </div>
+                <div class="col-12 col-lg-6 pt-2">
+                  <h1>Historia</h1>
+                  <p>
+                    Caroline Sada es licenciada en Administración y Dirección de Empresas, tiene 34 años y es
+                    una inﬂuencer ﬁnanciera, rubro en el que se desempeña como analista desde hace tres
+                    años.<br>
+                    A sus 30 años contrajo matrimonio con Tomás y, durante el proceso de organización de su
+                    boda, contrario al actual estereotipo de novia bridezilla, resaltó su habilidad de
+                    comunicación, empatía con los proveedores, gestión ﬁnanciera, capacidad de organización
+                    vía remota y liderazgo.
+                  </p>
+                </div>
               </div>
-              <div class="col-12 col-lg-6 pt-2">
-                <h1>Historia</h1>
-                <p>
-                  Caroline Sada es licenciada en Administración y Dirección de Empresas, tiene 34 años y es
-                  una inﬂuencer ﬁnanciera, rubro en el que se desempeña como analista desde hace tres
-                  años.<br>
-                  A sus 30 años contrajo matrimonio con Tomás y, durante el proceso de organización de su
-                  boda, contrario al actual estereotipo de novia bridezilla, resaltó su habilidad de
-                  comunicación, empatía con los proveedores, gestión ﬁnanciera, capacidad de organización
-                  vía remota y liderazgo.
-                </p>
-              </div>
-            </div>
-          </section>
-          
-          <section id="influencer">
-            <div class="row">
-              <div class="col-12 col-lg-6 pl-0 pr-0">
-                <h1>Influencer</h1>
-                <p>
-                  Caroline Sada es licenciada en Administración y Dirección de Empresas, tiene 34 años y es
-                  una inﬂuencer ﬁnanciera, rubro en el que se desempeña como analista desde hace tres
-                  años.<br>
-                  A sus 30 años contrajo matrimonio con Tomás y, durante el proceso de organización de su
-                  boda, contrario al actual estereotipo de novia bridezilla, resaltó su habilidad de
-                  comunicación, empatía con los proveedores, gestión ﬁnanciera, capacidad de organización
-                  vía remota y liderazgo.
-                </p>
-              </div>
-              <div class="col-12 col-lg-6 pt-2">
-                <img src="./assets/img/Influencer.png" class="img-thumbnail" alt="...">
-              </div>
-            </div>
-          </section>
+            </section>
 
-          <section id="finanzas">
-            <div class="row">
-              <div class="col-12 col-lg-6 pl-0 pr-0">
-                <img src="./assets/img/Finanzas.png" class="img-thumbnail" alt="...">
+            <section class="p-5 p-lg-5" id="influencer">
+              <div class="row">
+                <div class="col-12 col-lg-6 pl-0 pr-0">
+                  <h1>Influencer</h1>
+                  <p>
+                    Caroline Sada es licenciada en Administración y Dirección de Empresas, tiene 34 años y es
+                    una inﬂuencer ﬁnanciera, rubro en el que se desempeña como analista desde hace tres
+                    años.<br>
+                    A sus 30 años contrajo matrimonio con Tomás y, durante el proceso de organización de su
+                    boda, contrario al actual estereotipo de novia bridezilla, resaltó su habilidad de
+                    comunicación, empatía con los proveedores, gestión ﬁnanciera, capacidad de organización
+                    vía remota y liderazgo.
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6 pt-2">
+                  <img src="./assets/img/Influencer.png" class="img-thumbnail" alt="...">
+                </div>
               </div>
-              <div class="col-12 col-lg-6 pt-2">
-                <h1>Finanzas</h1>
-                <p>
-                  Caroline Sada es licenciada en Administración y Dirección de Empresas, tiene 34 años y es
-                  una inﬂuencer ﬁnanciera, rubro en el que se desempeña como analista desde hace tres
-                  años.<br>
-                  A sus 30 años contrajo matrimonio con Tomás y, durante el proceso de organización de su
-                  boda, contrario al actual estereotipo de novia bridezilla, resaltó su habilidad de
-                  comunicación, empatía con los proveedores, gestión ﬁnanciera, capacidad de organización
-                  vía remota y liderazgo.
-                </p>
-              </div>
-            </div>
-          </section>
-          
-          <section id="cursos">
-            <div class="row">
-              <div class="col-12 col-lg-6 pl-0 pr-0">
-                <h1>Cursos</h1>
-                <p>
-                  Caroline Sada es licenciada en Administración y Dirección de Empresas, tiene 34 años y es
-                  una inﬂuencer ﬁnanciera, rubro en el que se desempeña como analista desde hace tres
-                  años.<br>
-                  A sus 30 años contrajo matrimonio con Tomás y, durante el proceso de organización de su
-                  boda, contrario al actual estereotipo de novia bridezilla, resaltó su habilidad de
-                  comunicación, empatía con los proveedores, gestión ﬁnanciera, capacidad de organización
-                  vía remota y liderazgo.
-                </p>
-              </div>
-              <div class="col-12 col-lg-6 pt-2">
-                <img src="./assets/img/Cursos.png" class="img-thumbnail" alt="...">
-              </div>
-            </div>
-          </section>
+            </section>
 
+            <section class="p-5 p-lg-5" id="finanzas">
+              <div class="row">
+                <div class="col-12 col-lg-6 pl-0 pr-0">
+                  <img src="./assets/img/Finanzas.png" class="img-thumbnail" alt="...">
+                </div>
+                <div class="col-12 col-lg-6 pt-2">
+                  <h1>Finanzas</h1>
+                  <p>
+                    Caroline Sada es licenciada en Administración y Dirección de Empresas, tiene 34 años y es
+                    una inﬂuencer ﬁnanciera, rubro en el que se desempeña como analista desde hace tres
+                    años.<br>
+                    A sus 30 años contrajo matrimonio con Tomás y, durante el proceso de organización de su
+                    boda, contrario al actual estereotipo de novia bridezilla, resaltó su habilidad de
+                    comunicación, empatía con los proveedores, gestión ﬁnanciera, capacidad de organización
+                    vía remota y liderazgo.
+                  </p>
+                </div>
+              </div>
+            </section>
+            
+            <section class="p-5 p-lg-5" id="cursos">
+              <div class="row">
+                <div class="col-12 col-lg-6 pl-0 pr-0">
+                  <h1>Cursos</h1>
+                  <p>
+                    Caroline Sada es licenciada en Administración y Dirección de Empresas, tiene 34 años y es
+                    una inﬂuencer ﬁnanciera, rubro en el que se desempeña como analista desde hace tres
+                    años.<br>
+                    A sus 30 años contrajo matrimonio con Tomás y, durante el proceso de organización de su
+                    boda, contrario al actual estereotipo de novia bridezilla, resaltó su habilidad de
+                    comunicación, empatía con los proveedores, gestión ﬁnanciera, capacidad de organización
+                    vía remota y liderazgo.
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6 pt-2">
+                  <img src="./assets/img/Cursos.png" class="img-thumbnail" alt="...">
+                </div>
+              </div>
+            </section>
+
+            <section class="p-5 p-lg-5" id="inscripcion">
+              <div class="row">
+                <div class="col-12 col-lg-6 pl-0 pr-0">
+                  
+                </div>
+              </div>
+            </section>
+
+          </div>
         </div>
-      </div>
     </main>
     <!-- /Main -->
 
     <!-- Inicio Footer -->
-    <footer id="footer" class="pb-2 pt-2">
-      <div class="container ">
-        <div class="row ">
+    <footer id="footer" class="p-2 d-flex flex-column align-items-center justify-content-center">
+      <div class="container d-inline d-flex flex-column align-items-center justify-content-center">
+        <div class="row">
           <div class="col-12 col-lg mb-2 mb-lg">
             <a href="#">
-              <img src="./assets/icons/Instagram.png" alt="Instagram" >
+              <i class="bi bi-instagram"></i>
             </a>
             <a href="#">
-              <img src="./assets/icons/Youtube.png" alt="Youtube" >
+              <i class="bi bi-youtube"></i>
             </a>
             <a href="#">
-              <img src="./assets/icons/Twiter.png" alt="Twiter" >
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-tiktok"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-bootstrap"></i>
             </a>
           </div>
         </div>
       </div>
+      <div class="rodrigo">RODRIGO ANGELES GONZALEZ 2023 &#169;</div>
     </footer>
     <!-- Fin Footer -->
-
-    
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
